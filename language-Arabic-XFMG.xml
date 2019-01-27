@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" addon_id="XFMG" base_version_id="902010052" export_version="2">
+  <phrase title="admin_navigation.xfmg" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض]]></phrase>
+  <phrase title="admin_navigation.xfmgBatchUpdate" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحديث جماعي]]></phrase>
+  <phrase title="admin_navigation.xfmgBatchUpdateAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات]]></phrase>
+  <phrase title="admin_navigation.xfmgBatchUpdateMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط]]></phrase>
+  <phrase title="admin_navigation.xfmgCategories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أقسام المعرض]]></phrase>
+  <phrase title="admin_navigation.xfmgCategoryPermissions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تصاريح أقسام المعرض]]></phrase>
+  <phrase title="admin_navigation.xfmgFields" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حقول المعرض]]></phrase>
+  <phrase title="admin_permission.mediaGallery" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إدارة معرض الوسائط]]></phrase>
+  <phrase title="alert_opt_out.xfmg_album_mention" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أشار إليك في وصف الألبوم]]></phrase>
+  <phrase title="alert_opt_out.xfmg_album_reaction" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[تفاعلات مع ألبومك]]></phrase>
+  <phrase title="alert_opt_out.xfmg_album_share_add" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[منحك تصريح لإضافة وسائط إلى ألبومه الشخصي]]></phrase>
+  <phrase title="alert_opt_out.xfmg_album_share_view" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[منحك تصريح لمشاهدة ألبومه الشخصي]]></phrase>
+  <phrase title="alert_opt_out.xfmg_comment_insert" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليقات على وسائط أو ألبومات تتابعها]]></phrase>
+  <phrase title="alert_opt_out.xfmg_comment_mention" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ذكرك في تعليق على وسائط أو ألبوم]]></phrase>
+  <phrase title="alert_opt_out.xfmg_comment_quote" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[اقتبس تعليقك على الوسائط أو الالبوم]]></phrase>
+  <phrase title="alert_opt_out.xfmg_comment_reaction" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[تفاعلات مع الوسائط الخاصة بك أو تعليق ألبوم]]></phrase>
+  <phrase title="alert_opt_out.xfmg_media_insert" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أضاف عنصر وسائط جديد إلى ألبوم أو قسم تتابعه]]></phrase>
+  <phrase title="alert_opt_out.xfmg_media_mention" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أشار إليك في وصف عنصر الوسائط]]></phrase>
+  <phrase title="alert_opt_out.xfmg_media_reaction" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[تفاعل مع عنصر الوسائط الخاص بك]]></phrase>
+  <phrase title="alert_opt_out.xfmg_rating_insert" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[قيم عنصر الوسائط أو الألبوم الخاص بك]]></phrase>
+  <phrase title="api_scope.media_category_delete" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يغطي حذف قسم الوسائط.]]></phrase>
+  <phrase title="api_scope.media_category_read" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يغطي عرض أقسام الوسائط أو قائمة الأقسام.]]></phrase>
+  <phrase title="api_scope.media_category_write" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يغطي تحديث أو إنشاء قسم الوسائط.]]></phrase>
+  <phrase title="api_scope.media_delete_hard" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يغطي الحذف النهائي للوسائط، الألبومات وتعليقاتها.]]></phrase>
+  <phrase title="api_scope.media_read" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يغطي عرض الوسائط، الألبومات وتعليقاتها.]]></phrase>
+  <phrase title="api_scope.media_write" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يغطي إنشاء وتحديث و الحذف البسيط للوسائط، الألبومات وتعليقاتها.]]></phrase>
+  <phrase title="cron_entry.xfmgCacheStats" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: كاش إحصائيات المعرض]]></phrase>
+  <phrase title="cron_entry.xfmgCleanUpDaily" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[المعرض: التنظيف اليومي]]></phrase>
+  <phrase title="cron_entry.xfmgCleanUpHourly" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: التنظيف كل ساعة]]></phrase>
+  <phrase title="cron_entry.xfmgGenerateRandomAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: إنشاء كاش ألبوم عشوائي]]></phrase>
+  <phrase title="cron_entry.xfmgGenerateRandomMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: إنشاء كاش وسائط عشوائي]]></phrase>
+  <phrase title="cron_entry.xfmgViews" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تحديث عدادات المشاهدة]]></phrase>
+  <phrase title="custom_bb_code_desc.gallery" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كود BB لعرض عناصر وسائط و ألبومات المعرض.]]></phrase>
+  <phrase title="custom_bb_code_example.gallery" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[[GALLERY=media, X]بي بي كود المعرض[/GALLERY]]]></phrase>
+  <phrase title="custom_bb_code_title.gallery" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تضمين المعرض]]></phrase>
+  <phrase title="member_stat.xfmg_most_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأكثر ألبومات]]></phrase>
+  <phrase title="member_stat.xfmg_most_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأكثر طرحاً للوسائط]]></phrase>
+  <phrase title="mod_log.xfmg_album_approve" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تمت الموافقة على الألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_album_delete_hard" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف الألبوم نهائيا]]></phrase>
+  <phrase title="mod_log.xfmg_album_delete_soft" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف الألبوم بشكل جزئي (السبب: {reason})]]></phrase>
+  <phrase title="mod_log.xfmg_album_edit_description" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تحرير وصف الألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_album_edit_title" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تعديل عنوان الألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_album_unapprove" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبوم غير موافق عليه]]></phrase>
+  <phrase title="mod_log.xfmg_album_undelete" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم استرجاع الألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_album_warning_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت صلاحية تحذير منشئ الألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_album_warning_given" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحذير منشئ الألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_album_warning_removed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إزالة تحذير منشئ ألبوم]]></phrase>
+  <phrase title="mod_log.xfmg_comment_approve" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تمت الموافقة على تعليق المعرض]]></phrase>
+  <phrase title="mod_log.xfmg_comment_delete_hard" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف تعليق المعرض بشكل دائم]]></phrase>
+  <phrase title="mod_log.xfmg_comment_delete_soft" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف تعليق المعرض بشكل جزئي (السبب: {reason})]]></phrase>
+  <phrase title="mod_log.xfmg_comment_edit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تعديل تعليق المعرض]]></phrase>
+  <phrase title="mod_log.xfmg_comment_unapprove" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليق المعرض غير موافق عليه]]></phrase>
+  <phrase title="mod_log.xfmg_comment_undelete" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء حذف تعليق المعرض]]></phrase>
+  <phrase title="mod_log.xfmg_comment_warning_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت صلاحية تحذير منشئ تعليق المعرض]]></phrase>
+  <phrase title="mod_log.xfmg_comment_warning_given" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحذير مؤلف تعليق بالمعرض]]></phrase>
+  <phrase title="mod_log.xfmg_comment_warning_removed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تمت إزالة تحذير منشئ تعليق المعرض]]></phrase>
+  <phrase title="mod_log.xfmg_media_approve" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تمت الموافقة على عنصر الوسائط]]></phrase>
+  <phrase title="mod_log.xfmg_media_delete_hard" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف عنصر الوسائط نهائيا]]></phrase>
+  <phrase title="mod_log.xfmg_media_delete_soft" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف عنصر الوسائط بشكل جزئي (السبب: {reason})]]></phrase>
+  <phrase title="mod_log.xfmg_media_edit_description" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تعديل وصف عنصر الوسائط]]></phrase>
+  <phrase title="mod_log.xfmg_media_edit_title" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تعديل عنوان عنصر الوسائط]]></phrase>
+  <phrase title="mod_log.xfmg_media_unapprove" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر وسائط غير موافق عليه]]></phrase>
+  <phrase title="mod_log.xfmg_media_undelete" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم إلغاء حذف عنصر الوسائط]]></phrase>
+  <phrase title="mod_log.xfmg_media_warning_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت صلاحية تحذير منشئ الميديا]]></phrase>
+  <phrase title="mod_log.xfmg_media_warning_given" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحذير منشئ عنصر وسائط]]></phrase>
+  <phrase title="mod_log.xfmg_media_warning_removed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تمت إزالة تحذير منشئ عنصر الوسائط]]></phrase>
+  <phrase title="nav.newMedia" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[وسائط جديدة]]></phrase>
+  <phrase title="nav.xfmg" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض]]></phrase>
+  <phrase title="nav.xfmgAddMedia" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[إضافة ميديا]]></phrase>
+  <phrase title="nav.xfmgMarkViewed" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تعيين كتمت المشاهدة]]></phrase>
+  <phrase title="nav.xfmgNewComments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليقات الجديدة]]></phrase>
+  <phrase title="nav.xfmgNewMedia" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[جديد الوسائط]]></phrase>
+  <phrase title="nav.xfmgSearchMedia" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[بحث بالوسائط]]></phrase>
+  <phrase title="nav.xfmgWatchedAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات المتابعة]]></phrase>
+  <phrase title="nav.xfmgWatchedCategories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام المتابعة]]></phrase>
+  <phrase title="nav.xfmgWatchedContent" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[متابعة]]></phrase>
+  <phrase title="nav.xfmgWatchedMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط المتابعة]]></phrase>
+  <phrase title="nav.xfmgWhatsNewMediaComments" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تعليقات الوسائط الجديدة]]></phrase>
+  <phrase title="nav.xfmgWhatsNewNewMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[جديد الميديا]]></phrase>
+  <phrase title="nav.xfmgYourAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ألبوماتك]]></phrase>
+  <phrase title="nav.xfmgYourContent" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المحتوى الخاص بك]]></phrase>
+  <phrase title="nav.xfmgYourMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط الخاصة بك]]></phrase>
+  <phrase title="option.xfmgAlbumsPerPage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات بكل صفحة]]></phrase>
+  <phrase title="option.xfmgAllowPersonalAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[السماح بالألبومات الشخصية]]></phrase>
+  <phrase title="option.xfmgAudioExtensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إمتدادات الصوت المسموح بها]]></phrase>
+  <phrase title="option.xfmgCommentsPerPage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليقات بكل صفحة]]></phrase>
+  <phrase title="option.xfmgDefaultViewPrivacy" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[الخصوصية الإفتراضية لعرض الألبوم الشخصي]]></phrase>
+  <phrase title="option.xfmgFfmpeg" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تفعيل ميزات FFmpeg]]></phrase>
+  <phrase title="option.xfmgImageExtensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إمتدادات الصور المسموح بها]]></phrase>
+  <phrase title="option.xfmgMaxDescriptionLength" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[الحد الأقصى لطول وصف الوسائط / الألبوم]]></phrase>
+  <phrase title="option.xfmgMaxTitleLength" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[الحد الأقصى لطول عنوان الوسائط / الألبوم]]></phrase>
+  <phrase title="option.xfmgMediaIndexLimit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض الوسائط المضافة فقط خلال آخر X يوم]]></phrase>
+  <phrase title="option.xfmgMediaPerPage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر الوسائط بكل صفحة]]></phrase>
+  <phrase title="option.xfmgMinTagsPersonalAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأدنى من الوسوم في الألبومات الشخصية]]></phrase>
+  <phrase title="option.xfmgOverrideStyle" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تجاوز الستايل الافتراضي]]></phrase>
+  <phrase title="option.xfmgRequireComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يتطلب التعليق عند تقييم الألبومات أو عناصر الوسائط]]></phrase>
+  <phrase title="option.xfmgThumbnailDimensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى لأبعاد الصور المصغرة]]></phrase>
+  <phrase title="option.xfmgUnviewedCounter" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض عداد الوسائط الغير مشاهدة]]></phrase>
+  <phrase title="option.xfmgVideoExtensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إمتدادات الفيديو المسموح بها]]></phrase>
+  <phrase title="option.xfmgWatermarking" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تمكين العلامات المائية للصورة (الأختام)]]></phrase>
+  <phrase title="option_explain.xfmgAlbumsPerPage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى لعدد الألبومات المطلوب عرضها في كل صفحة.]]></phrase>
+  <phrase title="option_explain.xfmgAllowPersonalAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إذا تم تعطيل الألبومات الشخصية، لا يزال من الممكن إنشاء ألبومات داخل أقسام الألبوم (إذا قمت بإنشاء بعضها). تسمح الألبومات الشخصية لمالك الألبوم بالتحكم الدقيق في إعدادات الخصوصية.]]></phrase>
+  <phrase title="option_explain.xfmgAudioExtensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[قم بإدراج امتدادات الملفات الصوتية التي يسمح بتحميلها. استخدم المسافات أو فواصل الأسطر بين الإمتدادات.]]></phrase>
+  <phrase title="option_explain.xfmgCommentsPerPage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى لعدد تعليقات الوسائط أو الألبومات المراد عرضها في كل صفحة.]]></phrase>
+  <phrase title="option_explain.xfmgDefaultViewPrivacy" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[سيتم استخدام هذه القيمة كقيمه افتراضية لخصوصية المشاهدة لأي البومات شخصية جديدة يتم إنشاؤها.]]></phrase>
+  <phrase title="option_explain.xfmgImageExtensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ضع امتدادات ملفات الصور التي يسمح بتحميلها. استخدم المسافات أو فواصل الأسطر بين الإمتدادات.]]></phrase>
+  <phrase title="option_explain.xfmgMediaIndexLimit" addon_id="XFMG" version_id="902010011" version_string="2.1.0 Preview 1"><![CDATA[إذا كان لديك معرض كبير، فقد يتم تحميل الصفحة الرئيسية للمعرض أو صفحات عرض الأقسام بشكل بطيء. هذا الخيار سيخفف من ذلك بواسطة إظهار الوسائط فقط من آخر X يوم. ضع القيمة 0 لجعل المدة غير محدودة.]]></phrase>
+  <phrase title="option_explain.xfmgMediaPerPage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى لعدد عناصر الوسائط المراد عرضها في كل صفحة.]]></phrase>
+  <phrase title="option_explain.xfmgMinTagsPersonalAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إذا كنت تريد الحصول على حد أدنى لعدد الوسوم في عناصر الوسائط بالألبومات الشخصية، فيمكنك تعيينها هنا. ضع القيمة 0 لجعلها دون حد أدنى.]]></phrase>
+  <phrase title="option_explain.xfmgOverrideStyle" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[سيتم عرض الستايل المحدد هنا على جميع صفحات المعرض بدلا من الستايل الافتراضي.]]></phrase>
+  <phrase title="option_explain.xfmgRequireComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إذا تم التحديد، جميع المستخدمين الذين يرغبون في تقييم ألبوم أو عنصر وسائط سيطلب منهم أيضا كتابة تعليق.]]></phrase>
+  <phrase title="option_explain.xfmgThumbnailDimensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عند إضافة وسائط إلى المعرض، يتم إنشاء صورة مصغرة استنادا إلى هذه الأبعاد. أيضاً يتم إنشاء الصور المصغرة للألبوم بنفس هذه الأبعاد. إذا غيرت هذه القيمة، فستحتاج إلى <a href="admin.php?tools/rebuild">إعادة بناء الصور المصغرة</a>.]]></phrase>
+  <phrase title="option_explain.xfmgUnviewedCounter" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[في حالة التمكين، سيتم عرض عدد الوسائط التي لم تتم مشاهدتها أعلى علامة تبويب "المعرض".]]></phrase>
+  <phrase title="option_explain.xfmgVideoExtensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ضع امتدادات ملفات مقاطع الفيديو التي يسمح بتحميلها. استخدم المسافات أو فواصل الأسطر بين الإمتدادات.]]></phrase>
+  <phrase title="option_explain.xfmgWatermarking" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لوضع ختم علامة مائية تلقائيا على جميع الصور التي تم تحميلها، يمكنك تمكين العلامات المائية وتحميل صورة مناسبة بخلفية شفافة. سوف تختلف النتائج اعتمادا على الصورة المختارة.]]></phrase>
+  <phrase title="option_group.xfmg" addon_id="XFMG" version_id="902000270" version_string="2.0.2"><![CDATA[معرض وسائط XenForo]]></phrase>
+  <phrase title="option_group_description.xfmg" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الخيارات التي تتحكم في إضافة معرض الوسائط.]]></phrase>
+  <phrase title="permission.xfmgStorage_maxAllowedStorage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى المسموح به للتخزين (MB)]]></phrase>
+  <phrase title="permission.xfmg_add" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة عناصر وسائط]]></phrase>
+  <phrase title="permission.xfmg_addAudio" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحميل صوت إلى الألبوم]]></phrase>
+  <phrase title="permission.xfmg_addComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة تعليق]]></phrase>
+  <phrase title="permission.xfmg_addEmbed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تضمين الوسائط في الألبوم]]></phrase>
+  <phrase title="permission.xfmg_addImage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحميل صورة إلى الألبوم]]></phrase>
+  <phrase title="permission.xfmg_addNoteAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة ملاحظة على أي صورة]]></phrase>
+  <phrase title="permission.xfmg_addNoteOwn" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة / تحرير ملاحظة على الصورة الخاصة]]></phrase>
+  <phrase title="permission.xfmg_addVideo" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحميل فيديو إلى الألبوم]]></phrase>
+  <phrase title="permission.xfmg_addWithoutApproval" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[إضافة عنصر وسائط دون موافقة]]></phrase>
+  <phrase title="permission.xfmg_addWithoutWatermark" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة عناصر وسائط بدون علامة مائية]]></phrase>
+  <phrase title="permission.xfmg_approveUnapprove" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة / عدم الموافقة على عناصر الوسائط]]></phrase>
+  <phrase title="permission.xfmg_approveUnapproveAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة / عدم الموافقة على الألبومات]]></phrase>
+  <phrase title="permission.xfmg_approveUnapproveComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة على / عدم الموافقة على التعليقات]]></phrase>
+  <phrase title="permission.xfmg_bypassPrivacy" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تجاوز خصوصية الألبوم (عرض جميع الألبومات والمحتويات)]]></phrase>
+  <phrase title="permission.xfmg_changePrivacyAnyAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تغيير خصوصية أي ألبوم]]></phrase>
+  <phrase title="permission.xfmg_changePrivacyOwnAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تغيير خصوصية ألبومه]]></phrase>
+  <phrase title="permission.xfmg_createAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إنشاء ألبوم جديد]]></phrase>
+  <phrase title="permission.xfmg_deleteAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف كافة عناصر الوسائط]]></phrase>
+  <phrase title="permission.xfmg_deleteAnyAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف أي ألبوم]]></phrase>
+  <phrase title="permission.xfmg_deleteAnyComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف أي تعليق]]></phrase>
+  <phrase title="permission.xfmg_deleteAnyNote" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الملاحظة من أي صورة]]></phrase>
+  <phrase title="permission.xfmg_deleteComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف تعليقه]]></phrase>
+  <phrase title="permission.xfmg_deleteOwn" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف عناصر الوسائط الخاصة به]]></phrase>
+  <phrase title="permission.xfmg_deleteOwnAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الألبوم الخاص به]]></phrase>
+  <phrase title="permission.xfmg_deleteOwnNote" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الملاحظة من الصورة الخاصة به]]></phrase>
+  <phrase title="permission.xfmg_deleteTagSelf" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الإشارة لنفسه على أي صورة]]></phrase>
+  <phrase title="permission.xfmg_editAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل أي عناصر وسائط]]></phrase>
+  <phrase title="permission.xfmg_editAnyAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل أي ألبوم]]></phrase>
+  <phrase title="permission.xfmg_editAnyComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل أي تعليق]]></phrase>
+  <phrase title="permission.xfmg_editComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل التعليق الخاص به]]></phrase>
+  <phrase title="permission.xfmg_editNoteAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحرير ملاحظة على أي صورة]]></phrase>
+  <phrase title="permission.xfmg_editOwn" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل عناصر الوسائط الخاصة به]]></phrase>
+  <phrase title="permission.xfmg_editOwnAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل الألبوم الخاص به]]></phrase>
+  <phrase title="permission.xfmg_editOwnAlbumTimeLimit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الزمني لتحرير / حذف ألبوماته (بالدقائق)]]></phrase>
+  <phrase title="permission.xfmg_editOwnCommentTimeLimit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الزمني لتحرير / حذف تعليقاته (بالدقائق)]]></phrase>
+  <phrase title="permission.xfmg_editOwnMediaTimeLimit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الزمني لتحرير / حذف عناصر وسائطه (بالدقائق)]]></phrase>
+  <phrase title="permission.xfmg_hardDeleteAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف نهائي لأي عنصر وسائط]]></phrase>
+  <phrase title="permission.xfmg_hardDeleteAnyAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف نهائي لأي ألبوم]]></phrase>
+  <phrase title="permission.xfmg_hardDeleteAnyComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف نهائي لأي تعليق]]></phrase>
+  <phrase title="permission.xfmg_inlineMod" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[استخدام الإدارة المباشرة على عناصر الوسائط]]></phrase>
+  <phrase title="permission.xfmg_inlineModAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[استخدام الإدارة المباشرة على الالبومات]]></phrase>
+  <phrase title="permission.xfmg_inlineModComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[استخدام الإدارة المباشرة على التعليقات]]></phrase>
+  <phrase title="permission.xfmg_manageAnyTag" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل أي وسم]]></phrase>
+  <phrase title="permission.xfmg_manageOthersTagsOwnMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إدارة الوسوم بواسطة الآخرين لعناصر وسائطه]]></phrase>
+  <phrase title="permission.xfmg_maxFileSize" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أقصى حجم للملف (MB)]]></phrase>
+  <phrase title="permission.xfmg_maxImageHeight" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى لارتفاع الصورة]]></phrase>
+  <phrase title="permission.xfmg_maxImageWidth" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى لعرض الصورة]]></phrase>
+  <phrase title="permission.xfmg_moveAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل أي عنصر وسائط]]></phrase>
+  <phrase title="permission.xfmg_moveAnyAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل أي ألبوم]]></phrase>
+  <phrase title="permission.xfmg_moveOwn" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل عناصر الوسائط الخاصة به]]></phrase>
+  <phrase title="permission.xfmg_moveOwnAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل الألبومات الخاصة به]]></phrase>
+  <phrase title="permission.xfmg_rate" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييم عناصر الوسائط]]></phrase>
+  <phrase title="permission.xfmg_rateAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييم ألبوم]]></phrase>
+  <phrase title="permission.xfmg_react" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[التفاعل مع عناصر الميديا]]></phrase>
+  <phrase title="permission.xfmg_reactAlbum" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[التفاعل مع الألبومات]]></phrase>
+  <phrase title="permission.xfmg_reactComment" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[التفاعل مع التعليقات]]></phrase>
+  <phrase title="permission.xfmg_tagAnyMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[وسم أي عنصر وسائط]]></phrase>
+  <phrase title="permission.xfmg_tagOwnMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[وسم عناصر وسائطه]]></phrase>
+  <phrase title="permission.xfmg_tagSelf" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة / تحرير إشارة لنفسه على أي صورة]]></phrase>
+  <phrase title="permission.xfmg_tagWithoutApproval" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة إشارة للآخرين بدون موافقة]]></phrase>
+  <phrase title="permission.xfmg_undelete" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء حذف عناصر الوسائط]]></phrase>
+  <phrase title="permission.xfmg_undeleteAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء حذف الألبومات]]></phrase>
+  <phrase title="permission.xfmg_undeleteComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء حذف التعليقات]]></phrase>
+  <phrase title="permission.xfmg_view" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة معرض الوسائط]]></phrase>
+  <phrase title="permission.xfmg_viewComments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة التعليقات]]></phrase>
+  <phrase title="permission.xfmg_viewDeleted" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة عناصر الوسائط المحذوفة]]></phrase>
+  <phrase title="permission.xfmg_viewDeletedAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة الألبومات المحذوفة]]></phrase>
+  <phrase title="permission.xfmg_viewDeletedComments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة التعليقات المحذوفة]]></phrase>
+  <phrase title="permission.xfmg_viewModerated" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة عناصر الوسائط الغير موافق عليها]]></phrase>
+  <phrase title="permission.xfmg_viewModeratedAlbums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة الألبومات الغير موافق عليها]]></phrase>
+  <phrase title="permission.xfmg_viewModeratedComments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة التعليقات الغير موافق عليها]]></phrase>
+  <phrase title="permission.xfmg_viewNote" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاهدة ملاحظات الصورة]]></phrase>
+  <phrase title="permission.xfmg_viewPendingNote" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض أي ملاحظة صورة معلقة]]></phrase>
+  <phrase title="permission.xfmg_warn" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعطاء تحذيرات في الوسائط]]></phrase>
+  <phrase title="permission.xfmg_warnAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعطاء تحذيرات في الألبومات]]></phrase>
+  <phrase title="permission.xfmg_warnComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعطاء تحذيرات في التعليقات]]></phrase>
+  <phrase title="permission.xfmg_watermarkAny" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة / إزالة العلامة المائية من أي عنصر وسائط]]></phrase>
+  <phrase title="permission.xfmg_watermarkOwn" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة / إزالة العلامة المائية من الوسائط الخاصة به]]></phrase>
+  <phrase title="permission_interface.xfmgAlbum" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح الألبوم]]></phrase>
+  <phrase title="permission_interface.xfmgAlbumModerator" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح مدير الألبوم]]></phrase>
+  <phrase title="permission_interface.xfmgComment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح التعليق]]></phrase>
+  <phrase title="permission_interface.xfmgCommentModerator" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح إدارة التعليقات]]></phrase>
+  <phrase title="permission_interface.xfmgMedia" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح الوسائط]]></phrase>
+  <phrase title="permission_interface.xfmgMediaModerator" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح إدارة الوسائط]]></phrase>
+  <phrase title="permission_interface.xfmgNote" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح الملاحظة]]></phrase>
+  <phrase title="permission_interface.xfmgNoteModerator" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: تصاريح إدارة الملاحظة]]></phrase>
+  <phrase title="permission_interface.xfmgUploadQuotas" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: حصص التحميل]]></phrase>
+  <phrase title="style_prop.xfmgCategoryList" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض قائمة الأقسام]]></phrase>
+  <phrase title="style_prop_desc.xfmgCategoryList" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يمكن عرض تنسيق لقائمة الأقسام أثناء تصفح المعرض.]]></phrase>
+  <phrase title="style_prop_group.xfmgAppearance" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: المظهر]]></phrase>
+  <phrase title="style_prop_group_desc.xfmgAppearance" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد من الخصائص للتحكم بمظهر معرض وسائط XenForo]]></phrase>
+  <phrase title="widget_def.xfmg_albums_slider" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: الألبومات المتحركة]]></phrase>
+  <phrase title="widget_def.xfmg_gallery_statistics" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: إحصائيات الوسائط]]></phrase>
+  <phrase title="widget_def.xfmg_latest_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض: آخر التعليقات]]></phrase>
+  <phrase title="widget_def.xfmg_media_slider" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[المعرض: شرائح الوسائط]]></phrase>
+  <phrase title="widget_def_desc.xfmg_albums_slider" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يعرض شريط تمرير يظهر أحدث الألبومات أو اختيار عشوائي لها.]]></phrase>
+  <phrase title="widget_def_desc.xfmg_gallery_statistics" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يعرض إحصاءات المعرض]]></phrase>
+  <phrase title="widget_def_desc.xfmg_latest_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يعرض أحدث التعليقات المعرض]]></phrase>
+  <phrase title="widget_def_desc.xfmg_media_slider" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يعرض شريط تمرير يظهر الأحدث أو اختيار عشوائي لعناصر الوسائط.]]></phrase>
+  <phrase title="widget_pos.xfmg_gallery_wrapper_sidenav" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حاوي المعرض: شريط التنقل الجانبي]]></phrase>
+  <phrase title="widget_pos_desc.xfmg_gallery_wrapper_sidenav" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أسفل "شريط تنقل المعرض" داخل قالب gallery wrapper.]]></phrase>
+  <phrase title="xfmg_aac_or_libvo_aacenc_encoder_is_required_for_transcoding_audio" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الترميز 'aac' أو 'libvo_aacenc' مطلوب لتحويل الصوت.]]></phrase>
+  <phrase title="xfmg_add_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة وسائط]]></phrase>
+  <phrase title="xfmg_add_media_to" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة وسائط إلى]]></phrase>
+  <phrase title="xfmg_add_media_to_existing_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة وسائط إلى ألبوم موجود]]></phrase>
+  <phrase title="xfmg_add_note_tag" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إضافة ملاحظة/إشارة]]></phrase>
+  <phrase title="xfmg_add_users_explain" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أدخل أعلاه أسماء الأعضاء الذين يسمح لهم بإضافة عناصر الوسائط. مالك الألبوم يسمح له بذلك تلقائيا.]]></phrase>
+  <phrase title="xfmg_added_by" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أُضيفت بواسطة]]></phrase>
+  <phrase title="xfmg_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبوم]]></phrase>
+  <phrase title="xfmg_album_and_its_contents_will_be_private" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبوم ومحتوياته سوف يكون خاصاً. ستتمكن من ضبط إعدادات الخصوصية بعد الإنشاء.]]></phrase>
+  <phrase title="xfmg_album_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليقات الألبوم]]></phrase>
+  <phrase title="xfmg_album_contents" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[محتويات الألبوم]]></phrase>
+  <phrase title="xfmg_album_count" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد الألبومات]]></phrase>
+  <phrase title="xfmg_album_description" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[وصف الألبوم]]></phrase>
+  <phrase title="xfmg_album_information" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[معلومات الألبوم]]></phrase>
+  <phrase title="xfmg_album_is_being_created_inside_x_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يتم إنشاء الألبوم داخل القسم "{title}". وسيكون مرئيا لأي عضو يمكنه عرض هذا القسم.]]></phrase>
+  <phrase title="xfmg_album_owner" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مالك الألبوم]]></phrase>
+  <phrase title="xfmg_album_privacy" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[خصوصية الألبوم]]></phrase>
+  <phrase title="xfmg_album_privacy.inherit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[موروثة من القسم]]></phrase>
+  <phrase title="xfmg_album_privacy.members" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأعضاء المسجلين]]></phrase>
+  <phrase title="xfmg_album_privacy.private" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مالك الألبوم فقط]]></phrase>
+  <phrase title="xfmg_album_privacy.public" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الجميع]]></phrase>
+  <phrase title="xfmg_album_privacy.shared" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أعضاء محددين]]></phrase>
+  <phrase title="xfmg_album_ratings" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييمات الألبوم]]></phrase>
+  <phrase title="xfmg_album_reactions" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعلات الألبوم]]></phrase>
+  <phrase title="xfmg_album_thumbnails" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الصور المصغرة للألبوم]]></phrase>
+  <phrase title="xfmg_album_title" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنوان الألبوم]]></phrase>
+  <phrase title="xfmg_album_x" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبوم '{album}']]></phrase>
+  <phrase title="xfmg_album_x_marked_as_viewed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تعيين الألبوم {title} كمشاهد.]]></phrase>
+  <phrase title="xfmg_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات]]></phrase>
+  <phrase title="xfmg_albums_created_by_x" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات التي تم إنشاؤها بواسطة {name}]]></phrase>
+  <phrase title="xfmg_alert_transcode_failed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[للأسف، تعذر معالجة عنصر الوسائط الذي حملته باسم {title}. يرجى تحميل ملف آخر وإعادة المحاولة.]]></phrase>
+  <phrase title="xfmg_alert_transcode_success" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر الوسائط {title} انتهى من المعالجة وتمت إضافته الآن إلى المعرض.]]></phrase>
+  <phrase title="xfmg_all_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كافة الأقسام]]></phrase>
+  <phrase title="xfmg_all_media_items_marked_as_viewed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تعيين كافة عناصر الوسائط على أنها مشاهدة.]]></phrase>
+  <phrase title="xfmg_all_media_types" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كافة أنواع الوسائط]]></phrase>
+  <phrase title="xfmg_all_selected_albums_already_in_destination_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كافة الألبومات المحددة موجودة بالفعل في القسم المقصود. يرجى تحديد قسم آخر.]]></phrase>
+  <phrase title="xfmg_all_selected_media_items_already_in_destination_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كافة عناصر الوسائط المحددة موجودة بالفعل في الألبوم الوجهة. الرجاء تحديد ألبوم آخر.]]></phrase>
+  <phrase title="xfmg_all_selected_media_items_already_in_destination_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كافة عناصر الوسائط المحددة موجودة بالفعل في القسم الوجهة. الرجاء تحديد قسم آخر.]]></phrase>
+  <phrase title="xfmg_allowed_extensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإمتدادات المسموح بها]]></phrase>
+  <phrase title="xfmg_allowed_media_types" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أنواع الوسائط المسموح بها]]></phrase>
+  <phrase title="xfmg_allowed_media_types_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأنواع المحددة أعلاه ذات صله فقط بالبوم وأقسام الوسائط.]]></phrase>
+  <phrase title="xfmg_allowed_types" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأنواع المسموح بها]]></phrase>
+  <phrase title="xfmg_always" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[دائما]]></phrase>
+  <phrase title="xfmg_applicable_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام القابلة للتطبيق]]></phrase>
+  <phrase title="xfmg_approve_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة على الألبوم]]></phrase>
+  <phrase title="xfmg_approve_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة على الألبومات]]></phrase>
+  <phrase title="xfmg_approve_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة على التعليقات]]></phrase>
+  <phrase title="xfmg_approve_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة على عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_approve_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموافقة على عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_audio" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[صوت]]></phrase>
+  <phrase title="xfmg_auto_play" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تشغيل تلقائي]]></phrase>
+  <phrase title="xfmg_auto_play_hint" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[سيقوم الشريط المتحرك بتشغيل الشرائح تلقائيا.]]></phrase>
+  <phrase title="xfmg_batch_update_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحديث جماعي للألبومات]]></phrase>
+  <phrase title="xfmg_batch_update_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحديث جماعي للوسائط]]></phrase>
+  <phrase title="xfmg_below_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أسفل عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_bottom_of_media_info_block" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أسفل كتلة معلومات الوسائط]]></phrase>
+  <phrase title="xfmg_browse_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تصفح الألبومات]]></phrase>
+  <phrase title="xfmg_browse_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تصفح الوسائط]]></phrase>
+  <phrase title="xfmg_can_add_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[من يمكنه إضافة عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_can_view_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[من يمكنه مشاهدة عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_cannot_ascertain_correct_album_or_category_to_save_media_to" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يمكن التحقق من الألبوم أو القسم الصحيح لحفظ الوسائط.]]></phrase>
+  <phrase title="xfmg_cannot_create_media_note_without_tagged_username_or_note_text" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يمكن إنشاء ملاحظه وسائط بدون إسم مستخدم أو نص ملاحظه.]]></phrase>
+  <phrase title="xfmg_cannot_delete_contents_without_album_id" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يمكن حذف المحتويات بدون album_id.]]></phrase>
+  <phrase title="xfmg_cannot_delete_contents_without_category_id" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يمكن حذف المحتويات بدون category_id.]]></phrase>
+  <phrase title="xfmg_cannot_find_watermark_image_at_provided_path" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[لا يمكن العثور على صورة العلامة المائية في المسار الذي قدمته.]]></phrase>
+  <phrase title="xfmg_cannot_move_album_into_non_album_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يمكن نقل الألبوم إلى فئة ليست للألبوم.]]></phrase>
+  <phrase title="xfmg_canvas_drag_mode_crop" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[وضع سحب اللوحة: اقتصاص]]></phrase>
+  <phrase title="xfmg_canvas_drag_mode_move" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[وضع سحب اللوحة: نقل]]></phrase>
+  <phrase title="xfmg_cat_type.album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات فقط]]></phrase>
+  <phrase title="xfmg_cat_type.container" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حاوي فقط]]></phrase>
+  <phrase title="xfmg_cat_type.media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر الوسائط فقط]]></phrase>
+  <phrase title="xfmg_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام]]></phrase>
+  <phrase title="xfmg_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[القسم]]></phrase>
+  <phrase title="xfmg_category_contents" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[محتويات القسم]]></phrase>
+  <phrase title="xfmg_category_of_type_album_or_media_must_support_at_least_one_media_type" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[قسم من نوع "البوم" أو "الوسائط" يجب ان يدعم نوع واحد من الوسائط على الأقل.]]></phrase>
+  <phrase title="xfmg_category_type" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نوع القسم]]></phrase>
+  <phrase title="xfmg_category_type_change_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يمكن تغيير نوع القسم فقط عندما يكون القسم فارغ.]]></phrase>
+  <phrase title="xfmg_category_x_marked_as_viewed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[القسم {title} تم تعيينه كمشاهد.]]></phrase>
+  <phrase title="xfmg_change_privacy" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تغيير الخصوصية]]></phrase>
+  <phrase title="xfmg_change_thumbnail" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تغيير الصورة المصغرة]]></phrase>
+  <phrase title="xfmg_change_watermark_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لتغيير العلامة المائية على الصور الموجودة، يلزمك تشغيل الوظيفة <a href="{link}"><a href="{link}">المعرض: تحديث العلامات المائية </a>.]]></phrase>
+  <phrase title="xfmg_change_who_can_add_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تغيير الأشخاص الذين يمكنهم إضافة عناصر الوسائط:]]></phrase>
+  <phrase title="xfmg_change_who_can_view_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تغيير الأشخاص الذين يمكنهم مشاهدة عناصر الوسائط:]]></phrase>
+  <phrase title="xfmg_changing_privacy_in_this_way_will_overwrite_existing_privacy" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[سيؤدي تغيير إعدادات الخصوصية بهذه الطريقة إلى استبدال كافة إعدادات الخصوصية الحالية في الألبومات المحددة.]]></phrase>
+  <phrase title="xfmg_child_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام الفرعية]]></phrase>
+  <phrase title="xfmg_choose_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[اختر قسم]]></phrase>
+  <phrase title="xfmg_clear_selection" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مسح التحديد]]></phrase>
+  <phrase title="xfmg_comment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليق]]></phrase>
+  <phrase title="xfmg_comment_author" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ناشر التعليق]]></phrase>
+  <phrase title="xfmg_comment_by_x" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليق بواسطة '{user}']]></phrase>
+  <phrase title="xfmg_comment_by_x_in_album_y" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليق بواسطة '{user}' في الألبوم '{title}']]></phrase>
+  <phrase title="xfmg_comment_by_x_in_media_y" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليق بواسطة '{user}' في الميديا '{title}']]></phrase>
+  <phrase title="xfmg_comment_content" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[محتوى التعليق]]></phrase>
+  <phrase title="xfmg_comment_count" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد التعليقات]]></phrase>
+  <phrase title="xfmg_comment_count_between" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد التعليقات بين]]></phrase>
+  <phrase title="xfmg_comment_on_album_x_by_y" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[تعليق على ألبوم الوسائط  <a href="{albumLink}">{albumTitle}</a> بواسطة <a href="{userLink}">{userName}</a>]]></phrase>
+  <phrase title="xfmg_comment_on_media_x_by_y" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[تعليق على الميديا <a href="{mediaLink}">{mediaTitle}</a> بواسطة <a href="{userLink}">{userName}</a>]]></phrase>
+  <phrase title="xfmg_comment_reactions" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعلات التعليق]]></phrase>
+  <phrase title="xfmg_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليقات]]></phrase>
+  <phrase title="xfmg_comments_posted_on" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليقات نشرت في]]></phrase>
+  <phrase title="xfmg_comments_this_album" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[التعليقات (هذا الألبوم)]]></phrase>
+  <phrase title="xfmg_comments_this_media" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[التعليقات (عنصر الوسائط هذا)]]></phrase>
+  <phrase title="xfmg_confirm_deletion_of_x_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تأكيد حذف العناصر الـ {total}]]></phrase>
+  <phrase title="xfmg_container" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحاوي]]></phrase>
+  <phrase title="xfmg_container_categories_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام الحاوية هي أقسام خاصة لا يمكن أن تحتوي بشكل مباشر على ألبومات أو عناصر وسائط، ولكن بدلاً من ذلك ستعرض العناصر من الأقسام الفرعية التابعة لها.]]></phrase>
+  <phrase title="xfmg_container_list_only" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[قائمة الحاويات فقط]]></phrase>
+  <phrase title="xfmg_copy_gallery_bb_code" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نسخ كود  GALLERY BB]]></phrase>
+  <phrase title="xfmg_copy_image_bb_code" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نسخ كود BB للصورة]]></phrase>
+  <phrase title="xfmg_copy_image_link" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نسخ رابط الصورة]]></phrase>
+  <phrase title="xfmg_copy_media_bb_code" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نسخ كود MEDIA BB]]></phrase>
+  <phrase title="xfmg_copy_url_bb_code_with_thumbnail" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نسخ عنوان كود BB مع صورة مصغرة]]></phrase>
+  <phrase title="xfmg_could_not_execute_ffmpeg_at_path_specified" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر تنفيذ FFmpeg على المسار المحدد.]]></phrase>
+  <phrase title="xfmg_could_not_find_ffmpeg_at_path_specified" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على FFmpeg في المسار المحدد.]]></phrase>
+  <phrase title="xfmg_create_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إنشاء ألبوم]]></phrase>
+  <phrase title="xfmg_create_date" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تاريخ الإنشاء]]></phrase>
+  <phrase title="xfmg_create_personal_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إنشاء ألبوم شخصي]]></phrase>
+  <phrase title="xfmg_crop_data_provided_indicates_there_no_valid_manipulations_to_apply" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تشير بيانات الإقتصاص المقدمة إلى أنه لا توجد أي معالجة صحيحة للتطبيق.]]></phrase>
+  <phrase title="xfmg_current_rating" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التقييم الحالي]]></phrase>
+  <phrase title="xfmg_current_watermark" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[العلامة المائية الحالية:]]></phrase>
+  <phrase title="xfmg_date_added" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تاريخ الإضافة]]></phrase>
+  <phrase title="xfmg_date_created" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تاريخ الإنشاء]]></phrase>
+  <phrase title="xfmg_delete_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الألبوم]]></phrase>
+  <phrase title="xfmg_delete_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الألبومات]]></phrase>
+  <phrase title="xfmg_delete_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف القسم]]></phrase>
+  <phrase title="xfmg_delete_comment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف التعليق]]></phrase>
+  <phrase title="xfmg_delete_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف التعليقات]]></phrase>
+  <phrase title="xfmg_delete_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف العناصر]]></phrase>
+  <phrase title="xfmg_delete_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف الوسائط]]></phrase>
+  <phrase title="xfmg_delete_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_delete_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_destination_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[القسم الوجهة]]></phrase>
+  <phrase title="xfmg_disk_usage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إستخدام القرص]]></phrase>
+  <phrase title="xfmg_display_from_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض من الأقسام]]></phrase>
+  <phrase title="xfmg_display_from_personal_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض من الألبومات الشخصية]]></phrase>
+  <phrase title="xfmg_display_from_personal_albums_hint" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[سيتم عرض الوسائط من الألبومات القابلة للعرض فقط.]]></phrase>
+  <phrase title="xfmg_display_pager" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض pager]]></phrase>
+  <phrase title="xfmg_display_pager_hint" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض أزرار pager تحت شريط التمرير.]]></phrase>
+  <phrase title="xfmg_display_personal_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عرض الألبومات الشخصية]]></phrase>
+  <phrase title="xfmg_edit_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل الألبوم]]></phrase>
+  <phrase title="xfmg_edit_comment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل التعليق]]></phrase>
+  <phrase title="xfmg_edit_image" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل الصورة]]></phrase>
+  <phrase title="xfmg_edit_image_preview" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحرير الصورة - معاينة]]></phrase>
+  <phrase title="xfmg_edit_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل الوسائط]]></phrase>
+  <phrase title="xfmg_edit_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعديل عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_embed_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تضمين وسائط]]></phrase>
+  <phrase title="xfmg_embeds" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التضمينات]]></phrase>
+  <phrase title="xfmg_enable_responsive_slides" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[تمكين شرائح السلايد في وضع responsive]]></phrase>
+  <phrase title="xfmg_enable_responsive_slides_explain" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[يمكن أن يكون الحد الأقصى لعدد الشرائح المعروضة في كل مرة مرناً اعتماداً على حجم إطار العرض. إذا تم تحديده، اترك الحقول فارغة أو ضع 0 لعدم تغيير القيمة لنقطة توقف معينة.]]></phrase>
+  <phrase title="xfmg_ensure_you_have_added_at_least_one_media_item_before_continuing" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تأكد من إضافة عنصر وسائط واحد على الأقل قبل المتابعة.]]></phrase>
+  <phrase title="xfmg_enter_existing_album_url" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أدخل عنوان الألبوم الموجود:]]></phrase>
+  <phrase title="xfmg_enter_path_to_ffmpeg_binary_on_this_server" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أدخل المسار إلى FFmpeg binary على هذا الخادم. يمكنك أن تجد هذا في بعض الأحيان مع الأمر <code>which ffmpeg</code>.]]></phrase>
+  <phrase title="xfmg_error_while_uploading_watermark_image" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حدث خطأ أثناء تحميل صورة العلامة المائية.]]></phrase>
+  <phrase title="xfmg_exif.aperture" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الفتحة]]></phrase>
+  <phrase title="xfmg_exif.date_taken" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تاريخ الالتقاط]]></phrase>
+  <phrase title="xfmg_exif.device" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الجهاز]]></phrase>
+  <phrase title="xfmg_exif.dimensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأبعاد]]></phrase>
+  <phrase title="xfmg_exif.exposure" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[زمن التعرض]]></phrase>
+  <phrase title="xfmg_exif.file_size" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حجم الملف]]></phrase>
+  <phrase title="xfmg_exif.filename" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[اسم الملف]]></phrase>
+  <phrase title="xfmg_exif.flash" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الفلاش]]></phrase>
+  <phrase title="xfmg_exif.flash_16" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مغلق، لم ينطلق]]></phrase>
+  <phrase title="xfmg_exif.flash_24" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تلقائي، لم ينطلق]]></phrase>
+  <phrase title="xfmg_exif.flash_25" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تلقائي، إنطلق]]></phrase>
+  <phrase title="xfmg_exif.flash_8" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشغل، لم ينطلق]]></phrase>
+  <phrase title="xfmg_exif.flash_9" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشغل، إنطلق]]></phrase>
+  <phrase title="xfmg_exif.focal" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[البعد البؤري]]></phrase>
+  <phrase title="xfmg_exif.iso" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإيزو]]></phrase>
+  <phrase title="xfmg_existing_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ألبوم موجود]]></phrase>
+  <phrase title="xfmg_extra_info_block" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كتلة المعلومات الإضافية]]></phrase>
+  <phrase title="xfmg_extra_information" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[معلومات إضافية]]></phrase>
+  <phrase title="xfmg_ffmpeg_binary_path" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مسار FFmpeg binary]]></phrase>
+  <phrase title="xfmg_ffmpeg_generate_thumbnail_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[في حال التفعيل فإن الصور المصغرة سيتم توليدها بشكل تلقائي كلما كان ذلك ممكنا.]]></phrase>
+  <phrase title="xfmg_ffmpeg_has_access_to_neither_libvo_aacenc_codec_or_aac_codec" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[FFmpeg لديه حق الوصول إلى الترميز libvo_aacenc أو الترميز aac.]]></phrase>
+  <phrase title="xfmg_ffmpeg_transcode_limit_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[هذا هو الحد الأقصى لعدد عمليات transcode التي سيتم السماح بتشغيلها في نفس الوقت. عند الوصول إلى الحد، سيتم وضع عمليات النقل اللاحقة في قائمة الانتظار.]]></phrase>
+  <phrase title="xfmg_ffmpeg_version_requirement" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مطلوب FFmpeg الإصدار 1.1.0 أو أعلى.]]></phrase>
+  <phrase title="xfmg_field_can_be_edited_while_adding_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يمكن تحرير الحقل أثناء إضافة الوسائط]]></phrase>
+  <phrase title="xfmg_field_can_be_used_in_personal_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يمكن استخدام الحقل في الألبومات الشخصية]]></phrase>
+  <phrase title="xfmg_file_you_have_uploaded_is_x_which_exceeds_your_storage_quota" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الملف الذي قمت بتحميله هو {size} والذي يتجاوز حصة السعة التخزينية ولا يمكن تحميله. يتبقى لديك {remaining}.]]></phrase>
+  <phrase title="xfmg_filter_own" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مملوك]]></phrase>
+  <phrase title="xfmg_filter_unviewed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم مشاهدته]]></phrase>
+  <phrase title="xfmg_flip_horizontally" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انعكاس أفقي]]></phrase>
+  <phrase title="xfmg_flip_vertically" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انعكاس عمودي]]></phrase>
+  <phrase title="xfmg_force_transcoding_of_all_videos" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[فرض تحويل شفرة كافة مقاطع الفيديو]]></phrase>
+  <phrase title="xfmg_force_transcoding_of_all_videos_hint" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[سيؤدي تحويل شفرة الفيديو إلى ضغط وتحسين الملف الناتج عن البث. سيؤدي ذلك إلى تقليل أوقات التحميل وحجم الملف. مع تحديد هذا الخيار، سيتم تحويل جميع مقاطع الفيديو المحملة.]]></phrase>
+  <phrase title="xfmg_gallery" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المعرض]]></phrase>
+  <phrase title="xfmg_gallery_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ألبومات المعرض]]></phrase>
+  <phrase title="xfmg_gallery_comment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليق المعرض]]></phrase>
+  <phrase title="xfmg_generate_thumbnails" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إنشاء الصور المصغرة]]></phrase>
+  <phrase title="xfmg_if_you_wish_to_leave_comment_with_this_rating_enter_message_above" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إذا كنت تريد ترك تعليق مع هذا التقييم، فأدخل رسالة أعلاه. سيتم عرض التقييم والتعليق للعامة.]]></phrase>
+  <phrase title="xfmg_image_metadata" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[البيانات الوصفية للصورة]]></phrase>
+  <phrase title="xfmg_images" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الصور]]></phrase>
+  <phrase title="xfmg_inline_moderation_delete_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - حذف الألبومات]]></phrase>
+  <phrase title="xfmg_inline_moderation_delete_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - حذف التعليقات]]></phrase>
+  <phrase title="xfmg_inline_moderation_delete_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - حذف عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_inline_moderation_move_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - نقل الألبومات]]></phrase>
+  <phrase title="xfmg_inline_moderation_move_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - نقل عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_inline_moderation_unwatermark_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - إلغاء ختم عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_inline_moderation_watermark_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإدارة - ختم عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_item_count" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد العناصر]]></phrase>
+  <phrase title="xfmg_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[العناصر]]></phrase>
+  <phrase title="xfmg_items_displayed_on_page_displayed_from_child_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يتم عرض العناصر المعروضة في هذه الصفحة من الأقسام الفرعية.]]></phrase>
+  <phrase title="xfmg_latest_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أحدث الألبومات]]></phrase>
+  <phrase title="xfmg_latest_comments_limit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حد أحدث التعليقات]]></phrase>
+  <phrase title="xfmg_latest_comments_limit_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حدد الحد الأقصى لعدد تعليقات المعرض التي يجب عرضها في هذه القطعة.]]></phrase>
+  <phrase title="xfmg_latest_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أحدث الوسائط]]></phrase>
+  <phrase title="xfmg_latest_media_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أحدث تعليقات الوسائط]]></phrase>
+  <phrase title="xfmg_leave_comment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[اترك تعليقا]]></phrase>
+  <phrase title="xfmg_libx264_encoder_is_required_for_transcoding_video" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مطلوب التشفير 'libx264' لتحويل الفيديو.]]></phrase>
+  <phrase title="xfmg_loop_slides" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حلقات الشرائح]]></phrase>
+  <phrase title="xfmg_loop_slides_hint" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[السماح للشرائح بالعودة إلى البداية عند الوصول إلى النهاية.]]></phrase>
+  <phrase title="xfmg_manage_watched_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إدارة الألبومات المتابعة]]></phrase>
+  <phrase title="xfmg_manage_watched_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إدارة الوسائط المتابعة]]></phrase>
+  <phrase title="xfmg_mark_media_viewed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعيين الوسائط كمشاهدة]]></phrase>
+  <phrase title="xfmg_mark_viewed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعيين كمشاهد]]></phrase>
+  <phrase title="xfmg_matched" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مطابقة]]></phrase>
+  <phrase title="xfmg_max_dimensions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى. الأبعاد]]></phrase>
+  <phrase title="xfmg_max_file_size" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى. حجم الملف]]></phrase>
+  <phrase title="xfmg_max_height" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى. الإرتفاع]]></phrase>
+  <phrase title="xfmg_max_width" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى. العرض]]></phrase>
+  <phrase title="xfmg_maximum_slides" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الحد الأقصى للشرائح]]></phrase>
+  <phrase title="xfmg_maximum_slides_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[هذا هو الحد الأقصى لعدد الشرائح التي سيتم عرضها في المرة الواحدة.]]></phrase>
+  <phrase title="xfmg_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط]]></phrase>
+  <phrase title="xfmg_media_added_by_x" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط التي أضافها {name}]]></phrase>
+  <phrase title="xfmg_media_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أقسام الوسائط]]></phrase>
+  <phrase title="xfmg_media_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[قسم الوسائط]]></phrase>
+  <phrase title="xfmg_media_category_permissions" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تصاريح أقسام الوسائط]]></phrase>
+  <phrase title="xfmg_media_comment" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تعليق الميديا]]></phrase>
+  <phrase title="xfmg_media_comments" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تعليقات الوسائط]]></phrase>
+  <phrase title="xfmg_media_count" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد الوسائط]]></phrase>
+  <phrase title="xfmg_media_date" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تاريخ الوسائط]]></phrase>
+  <phrase title="xfmg_media_disk_usage_mb" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المساحة المستخدمة (MB)]]></phrase>
+  <phrase title="xfmg_media_fields" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حقول الوسائط]]></phrase>
+  <phrase title="xfmg_media_information" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[معلومات الميديا]]></phrase>
+  <phrase title="xfmg_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_media_item_is_contained_within_deleted_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر الوسائط موجود ضمن ألبوم محذوف.]]></phrase>
+  <phrase title="xfmg_media_item_is_deleted" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حذف عنصر الوسائط.]]></phrase>
+  <phrase title="xfmg_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_media_owner" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مالك الوسائط]]></phrase>
+  <phrase title="xfmg_media_ratings" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييمات الوسائط]]></phrase>
+  <phrase title="xfmg_media_reactions" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعلات الميديا]]></phrase>
+  <phrase title="xfmg_media_this_album" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[الميديا (هذا الألبوم)]]></phrase>
+  <phrase title="xfmg_media_this_category" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[الميديا (هذا القسم)]]></phrase>
+  <phrase title="xfmg_media_thumbnails" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الصور المصغرة للوسائط]]></phrase>
+  <phrase title="xfmg_media_type" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نوع الوسائط]]></phrase>
+  <phrase title="xfmg_media_type.audio" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ملفات صوتية]]></phrase>
+  <phrase title="xfmg_media_type.embed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تضمينات]]></phrase>
+  <phrase title="xfmg_media_type.image" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[صور]]></phrase>
+  <phrase title="xfmg_media_type.video" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[فيديوهات]]></phrase>
+  <phrase title="xfmg_media_watermarks" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[العلامات المائية]]></phrase>
+  <phrase title="xfmg_media_x" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر الوسائط '{media}']]></phrase>
+  <phrase title="xfmg_media_x_in_album_y" addon_id="XFMG" version_id="902010011" version_string="2.1.0 Preview 1"><![CDATA[عنصر الوسائط '{title}' في الألبوم '{album}']]></phrase>
+  <phrase title="xfmg_media_x_in_category_y" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر الوسائط '{title}' في القسم '{category}']]></phrase>
+  <phrase title="xfmg_media_x_new_watched_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[{media} - عنصر وسائط جديد في الألبوم الذي تتابعه]]></phrase>
+  <phrase title="xfmg_media_x_new_watched_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[{media} - عنصر وسائط جديد في القسم الذي تتابعه]]></phrase>
+  <phrase title="xfmg_media_x_posted_in_album_y" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[أدرج <a href="{mediaLink}">{mediaTitle}</a> في الألبوم <a href="{albumLink}">{albumTitle}</a>]]></phrase>
+  <phrase title="xfmg_medium" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[متوسط]]></phrase>
+  <phrase title="xfmg_members_who_have_reacted_to_comment_by_x" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[الأعضاء الذين تفاعلو مع التعليق بواسطة {user}]]></phrase>
+  <phrase title="xfmg_members_who_liked_album" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[الأعضاء الذين أعجبهم الألبوم '{title}']]></phrase>
+  <phrase title="xfmg_members_who_rated_this" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأعضاء الذين قيموا هذا]]></phrase>
+  <phrase title="xfmg_members_who_reacted_to_media" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[الأعضاء الذين تفاعلو مع الميديا '{title}']]></phrase>
+  <phrase title="xfmg_minimum_required_tags_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يتيح لك ذلك مطالبة المستخدمين بإدخال هذا العدد من الوسوم على الأقل عند إضافة وسائط أو تعديل الوسوم بوسائط موجودة.]]></phrase>
+  <phrase title="xfmg_move" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل]]></phrase>
+  <phrase title="xfmg_move_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل الألبوم]]></phrase>
+  <phrase title="xfmg_move_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل الألبومات]]></phrase>
+  <phrase title="xfmg_move_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_move_media_item_to" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل عنصر الوسائط إلى]]></phrase>
+  <phrase title="xfmg_move_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[نقل عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_must_be_album_category_or_select_no_category_to_make_albums" addon_id="XFMG" version_id="902000270" version_string="2.0.2"><![CDATA[يجب أن تحدد قسم للألبوم أو حدد 'بدون قسم' لجعل الألبوم غير مصنف (الألبومات الشخصية).]]></phrase>
+  <phrase title="xfmg_narrow" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[ضيق]]></phrase>
+  <phrase title="xfmg_new_comment" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليق جديد]]></phrase>
+  <phrase title="xfmg_new_comment_on_watched_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليق جديد على الألبوم الذي تتابعه]]></phrase>
+  <phrase title="xfmg_new_comment_on_watched_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليق جديد على عنصر الوسائط الذي تتابعه]]></phrase>
+  <phrase title="xfmg_new_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليقات جديدة]]></phrase>
+  <phrase title="xfmg_new_comments_only" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليقات الجديدة فقط]]></phrase>
+  <phrase title="xfmg_new_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط الجديدة]]></phrase>
+  <phrase title="xfmg_new_media_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعليقات الوسائط الجديدة]]></phrase>
+  <phrase title="xfmg_new_media_item" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عنصر وسائط جديد]]></phrase>
+  <phrase title="xfmg_new_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر وسائط جديدة]]></phrase>
+  <phrase title="xfmg_new_media_items_and_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر الوسائط الجديدة والتعليقات]]></phrase>
+  <phrase title="xfmg_new_media_items_only" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر الوسائط الجديدة فقط]]></phrase>
+  <phrase title="xfmg_new_sidebar_block" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[كتلة الشريط الجانبي جديدة]]></phrase>
+  <phrase title="xfmg_new_thumbnail_could_not_be_processed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر معالجة الصورة المصغرة الجديدة. الرجاء تجربة صورة أخرى.]]></phrase>
+  <phrase title="xfmg_no_album_could_be_found_with_id_x" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على ألبوم مع المعرف {album_id}.]]></phrase>
+  <phrase title="xfmg_no_album_id_could_be_found_from_that_url" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على معرف الألبوم من عنوان URL هذا.]]></phrase>
+  <phrase title="xfmg_no_albums_have_been_added_yet" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أي ألبومات حتى الآن.]]></phrase>
+  <phrase title="xfmg_no_albums_have_been_added_yet_which_you_can_add_media_to" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أي ألبومات يمكنك إضافة الوسائط إليها.]]></phrase>
+  <phrase title="xfmg_no_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا قسم]]></phrase>
+  <phrase title="xfmg_no_items_have_been_added_yet" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أي عناصر حتى الآن.]]></phrase>
+  <phrase title="xfmg_no_media_has_been_added_to_this_album_which_matches_your_filters" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أي وسائط إلى هذا الألبوم الذي يطابق التصفيات.]]></phrase>
+  <phrase title="xfmg_no_media_has_been_added_to_this_album_yet" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أي وسائط إلى هذا الألبوم بعد.]]></phrase>
+  <phrase title="xfmg_no_media_has_been_added_yet" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أي وسائط حتى الآن.]]></phrase>
+  <phrase title="xfmg_no_media_or_albums_have_been_added_to_this_category_yet" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم تتم إضافة أية وسائط أو ألبومات إلى هذا القسم حتى الآن.]]></phrase>
+  <phrase title="xfmg_no_one_has_rated_this_content_yet" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم يقم أي شخص بتقييم هذا المحتوى حتى الآن.]]></phrase>
+  <phrase title="xfmg_not_watermarked" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[غير مختوم بعلامة مائية]]></phrase>
+  <phrase title="xfmg_note_by" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ملاحظة بواسطة]]></phrase>
+  <phrase title="xfmg_note_has_been_saved_successfully" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم حفظ الملاحظة بنجاح.]]></phrase>
+  <phrase title="xfmg_note_tag_mode_activated" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم تنشيط وضع الملاحظة/الإشارة]]></phrase>
+  <phrase title="xfmg_note_tag_mode_deactivated" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تم إلغاء تنشيط وضع الملاحظة/الإشارة]]></phrase>
+  <phrase title="xfmg_notify_members_watching_destination_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعلام الأعضاء المتابعين بالألبوم الوجهة]]></phrase>
+  <phrase title="xfmg_notify_members_watching_destination_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعلام الأعضاء المتابعين بالقسم الوجهة]]></phrase>
+  <phrase title="xfmg_number_of_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد الألبومات]]></phrase>
+  <phrase title="xfmg_number_of_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_number_of_media_items_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[هذا هو العدد الإجمالي لعناصر الوسائط التي سيتم تحميلها في الشرائح.]]></phrase>
+  <phrase title="xfmg_one_or_more_of_your_videos_needs_to_be_processed" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يجب معالجه عنصر واحد أو أكثر من العناصر التي تم تحميلها قبل ان يمكن إضافتها إلى المعرض. ستتلقى تنبيها بمجرد انتهاء المعالجة لكل عنصر.]]></phrase>
+  <phrase title="xfmg_only_categories_which_contain_media_items_only_available" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام المتاحة فقط التي تحتوي على "عناصر الوسائط فقط". لنقل عنصر الوسائط إلى ألبوم استخدم الخيار أدناه.]]></phrase>
+  <phrase title="xfmg_only_display_within_selected_categories_no_children" addon_id="XFMG" version_id="902010052" version_string="2.1.0 Release Candidate 2"><![CDATA[العرض فقط ضمن الأقسام المحددة (بدلاً من تضمين الأقسام الفرعية)]]></phrase>
+  <phrase title="xfmg_only_images_can_be_manipulated" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يمكن التلاعب بالصور فقط .]]></phrase>
+  <phrase title="xfmg_only_non_animated_images_can_be_watermarked" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[فقط الصور الغير متحركة يمكن أن تكون علامة مائية.]]></phrase>
+  <phrase title="xfmg_others_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ألبومات أخرى]]></phrase>
+  <phrase title="xfmg_others_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الوسائط الأخرى]]></phrase>
+  <phrase title="xfmg_owned_by" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مملوكة من قبل:]]></phrase>
+  <phrase title="xfmg_page_is_within_categories" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[الصفحة ضمن أقسام المعرض]]></phrase>
+  <phrase title="xfmg_pasted_text_does_not_appear_to_be_valid_url" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يبدو أن النص الذي تم لصقه أنه عنوان URL صالح.]]></phrase>
+  <phrase title="xfmg_path_provided_was_not_valid" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[المسار الذي تم تقديمه غير صالح.]]></phrase>
+  <phrase title="xfmg_personal_album_can_use_advanced_privacy_settings" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يمكن للألبوم الشخصي استخدام إعدادات الخصوصية المتقدمة ولن يظهر في أي قسم.]]></phrase>
+  <phrase title="xfmg_php_binary_path" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مسار PHP binary]]></phrase>
+  <phrase title="xfmg_php_binary_path_could_not_be_verified" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يمكن التحقق من مسار PHP binary.]]></phrase>
+  <phrase title="xfmg_please_confirm_that_you_want_to_delete_following_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[يرجى تأكيد أنك تريد حذف القسم التالي]]></phrase>
+  <phrase title="xfmg_please_confirm_that_you_want_to_set_your_avatar_to_following" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الرجاء تأكيد أنك تريد تعيين الصورة الرمزية الخاصة بك إلى ما يلي]]></phrase>
+  <phrase title="xfmg_please_select_star_rating" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[يرجى اختيار عدد النجوم.]]></phrase>
+  <phrase title="xfmg_png_encoder_is_required_for_generating_thumbnails" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مطلوب الترميز 'png' ليتم توليد الصور المصغرة.]]></phrase>
+  <phrase title="xfmg_problem_occurred_while_creating_temp_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حدثت مشكلة أثناء إنشاء الوسائط المؤقتة. الرجاء محاولة عنوان URL آخر.]]></phrase>
+  <phrase title="xfmg_push_alert_x_tagged_you_in_media_y_approval" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[أشار إليك {user} في الميديا {item}. قم بزيارة حسابك للموافقة عليها.]]></phrase>
+  <phrase title="xfmg_random_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[ألبومات عشوائية]]></phrase>
+  <phrase title="xfmg_random_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[وسائط عشوائية]]></phrase>
+  <phrase title="xfmg_rate" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييم]]></phrase>
+  <phrase title="xfmg_rate_this_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييم عنصر الوسائط هذا]]></phrase>
+  <phrase title="xfmg_rating_your_own_content_is_considered_cheating" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تقييم المحتوى الخاص بك يعتبر غش.]]></phrase>
+  <phrase title="xfmg_ratings" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التقييمات]]></phrase>
+  <phrase title="xfmg_rebuild_album_thumbnails" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعادة إنشاء صور مصغرة للألبوم]]></phrase>
+  <phrase title="xfmg_rebuild_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعادة بناء الألبومات]]></phrase>
+  <phrase title="xfmg_rebuild_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعادة بناء الأقسام]]></phrase>
+  <phrase title="xfmg_rebuild_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعادة بناء عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_rebuild_media_thumbnails" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعادة بناء الصور المصغرة للوسائط]]></phrase>
+  <phrase title="xfmg_rebuild_user_counts" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أعد بناء مجاميع المستخدمين]]></phrase>
+  <phrase title="xfmg_rebuild_user_media_quotas" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إعادة بناء حصص وسائط المستخدم]]></phrase>
+  <phrase title="xfmg_remaining_storage" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التخزين المتبقي]]></phrase>
+  <phrase title="xfmg_remove_watermark" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إزالة العلامة المائية]]></phrase>
+  <phrase title="xfmg_requested_album_not_found" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على الألبوم المطلوب.]]></phrase>
+  <phrase title="xfmg_requested_category_not_found" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على القسم المطلوب.]]></phrase>
+  <phrase title="xfmg_requested_comment_not_found" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على التعليق المطلوب.]]></phrase>
+  <phrase title="xfmg_requested_media_item_not_found" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر العثور على عنصر الوسائط المطلوب.]]></phrase>
+  <phrase title="xfmg_rotate_left" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[استدارة لليسار]]></phrase>
+  <phrase title="xfmg_rotate_right" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[استدارة لليمين]]></phrase>
+  <phrase title="xfmg_search_albums" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[البحث عن ألبومات]]></phrase>
+  <phrase title="xfmg_search_child_categories_as_well" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[البحث في الأقسام الفرعية كذلك]]></phrase>
+  <phrase title="xfmg_search_in_categories" addon_id="XFMG" version_id="902010031" version_string="2.1.0 Beta 1"><![CDATA[البحث في الأقسام]]></phrase>
+  <phrase title="xfmg_search_in_media_categories" addon_id="XFMG" version_id="902010052" version_string="2.1.0 Release Candidate 2"><![CDATA[البحث في أقسام المعرض]]></phrase>
+  <phrase title="xfmg_search_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[البحث في الوسائط]]></phrase>
+  <phrase title="xfmg_search_media_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[البحث في تعليقات الوسائط]]></phrase>
+  <phrase title="xfmg_selected_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الألبومات المحددة]]></phrase>
+  <phrase title="xfmg_selected_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التعليقات المحددة]]></phrase>
+  <phrase title="xfmg_selected_container_does_not_support_this_media_type" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا يدعم الألبوم/القسم المحدد نوع الوسائط هذا.]]></phrase>
+  <phrase title="xfmg_selected_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عناصر الوسائط المحددة]]></phrase>
+  <phrase title="xfmg_selected_media_types" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[أنواع الوسائط المحددة]]></phrase>
+  <phrase title="xfmg_set_as_avatar" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعيين كصورة رمزية]]></phrase>
+  <phrase title="xfmg_share_this_album" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاركة هذا الألبوم]]></phrase>
+  <phrase title="xfmg_share_this_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[مشاركة عنصر الوسائط هذا]]></phrase>
+  <phrase title="xfmg_sibling_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[القسم الشقيق]]></phrase>
+  <phrase title="xfmg_soft_delete_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حذف العناصر جزئياً]]></phrase>
+  <phrase title="xfmg_specific_category" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[القسم المحدد]]></phrase>
+  <phrase title="xfmg_stop_adding_note_tag" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إيقاف إضافة ملاحظة/إشارة]]></phrase>
+  <phrase title="xfmg_stop_notification_emails_from_all_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إيقاف رسائل البريد الإلكتروني للإشعارات من جميع الألبومات]]></phrase>
+  <phrase title="xfmg_stop_notification_emails_from_all_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إيقاف رسائل إشعار البريد الإلكتروني من كافة الوسائط]]></phrase>
+  <phrase title="xfmg_stop_watching_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التوقف عن متابعة الألبومات]]></phrase>
+  <phrase title="xfmg_stop_watching_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[التوقف عن متابعة الوسائط]]></phrase>
+  <phrase title="xfmg_sub_categories" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الأقسام الفرعية]]></phrase>
+  <phrase title="xfmg_tag_user" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الإشارة إلى مستخدم]]></phrase>
+  <phrase title="xfmg_tagged_in_this_image" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[الموسومة في هذه الصورة]]></phrase>
+  <phrase title="xfmg_there_is_no_media_matching_your_filters" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا توجد وسائط مطابقة للتصفيات الخاصة بك.]]></phrase>
+  <phrase title="xfmg_there_is_no_media_or_albums_matching_your_filters" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا توجد وسائط أو ألبومات تطابق التصفيات.]]></phrase>
+  <phrase title="xfmg_there_more_comments_to_display" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[هناك المزيد من التعليقات للمشاهدة.]]></phrase>
+  <phrase title="xfmg_there_no_albums_matching_your_filters" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا توجد ألبومات تطابق التصفيات.]]></phrase>
+  <phrase title="xfmg_there_no_comments_to_display" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا توجد تعليقات لعرضها.]]></phrase>
+  <phrase title="xfmg_there_no_media_items_to_display" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لا توجد عناصر وسائط لعرضها.]]></phrase>
+  <phrase title="xfmg_this_file_is_not_encoded_in_supported_format_and_cannot_be_transcoded" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[هذا الملف غير مشفر بتنسيق مدعوم ولا يمكن تحويله. الرجاء تحميل ملف مختلف.]]></phrase>
+  <phrase title="xfmg_this_is_total_number_of_albums_that_will_be_loaded_in_slider" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[هذا هو العدد الإجمالي للألبومات التي سيتم تحميلها في الشرائح.]]></phrase>
+  <phrase title="xfmg_this_media_needs_to_be_processed_before_it_can_be_added_to_gallery" addon_id="XFMG" version_id="902000270" version_string="2.0.2"><![CDATA[يجب معالجة هذه الوسائط قبل إضافتها إلى المعرض. سوف تتلقى تنبيهاً بمجرد الانتهاء من عملية المعالجة.]]></phrase>
+  <phrase title="xfmg_this_rating_will_replace_your_previous_rating" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[سيحل هذا التقييم محل التقييم السابق.]]></phrase>
+  <phrase title="xfmg_thumbnail_type_default_hint" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[في حالة تحديده، سيعيد هذا الخيار إعادة إنشاء الصورة المصغرة الحالية، إن وجدت. إذا تم تحميل صورة مصغرة مخصصة، فسيتم حذفها.]]></phrase>
+  <phrase title="xfmg_time_limit_to_delete_this_album_x_minutes_has_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت المهلة الزمنية لحذف هذا الألبوم ({editLimit} دقيقة).]]></phrase>
+  <phrase title="xfmg_time_limit_to_delete_this_comment_x_minutes_has_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت المهلة الزمنية لحذف هذا التعليق ({editLimit} دقيقة).]]></phrase>
+  <phrase title="xfmg_time_limit_to_delete_this_media_x_minutes_has_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت المهلة الزمنية لحذف هذه الوسائط ({editLimit} دقيقة).]]></phrase>
+  <phrase title="xfmg_time_limit_to_edit_this_album_x_minutes_has_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت المهلة الزمنية لتعديل هذا الألبوم ({editLimit} دقيقة).]]></phrase>
+  <phrase title="xfmg_time_limit_to_edit_this_comment_x_minutes_has_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت المهلة الزمنية لتعديل هذا التعليق ({editLimit} دقيقة).]]></phrase>
+  <phrase title="xfmg_time_limit_to_edit_this_media_x_minutes_has_expired" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[انتهت المهلة الزمنية لتعديل هذه الوسائط ({editLimit} دقيقة).]]></phrase>
+  <phrase title="xfmg_to_transcode_media_we_need_to_defer_processing_to_command_line" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لتحويل الوسائط نحتاج إلى تحويل المعالجة إلى سطر أوامر نصي و الذي سيتم تنفيذه بواسطة PHP binary المحدد. يمكنك أن تجد هذا في بعض الأحيان مع الأمر <code>which php</code>.]]></phrase>
+  <phrase title="xfmg_total_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إجمالي التعليقات]]></phrase>
+  <phrase title="xfmg_transcode_limit" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[حد Transcode]]></phrase>
+  <phrase title="xfmg_transcode_media" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تحويل الميديا]]></phrase>
+  <phrase title="xfmg_transcode_media_explain" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إذا تم التمكين هذا سوف يسمح لك بدعم المزيد من الصيغ عن طريق تحويل الوسائط إلى H.264 / AAC / MP3 عند الاقتضاء.]]></phrase>
+  <phrase title="xfmg_transcoded_item_by_x_named_y_failed_creation" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر إنشاء و تحويل عنصر الوسائط المشفر الذي تم تحميله بواسطة {username} المسمى {title}.]]></phrase>
+  <phrase title="xfmg_transcoded_item_by_x_named_y_failed_transcoding" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[لم يتم تحويل عنصر الوسائط المسمى {title} الذي تم تحميله بواسطة {username}.]]></phrase>
+  <phrase title="xfmg_unable_to_edit_selected_image" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[تعذر تعديل الصورة المحددة. حاول مرة اخرى.]]></phrase>
+  <phrase title="xfmg_unapprove_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء الموافقة على الألبومات]]></phrase>
+  <phrase title="xfmg_unapprove_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدم الموافقة على التعليقات]]></phrase>
+  <phrase title="xfmg_unapprove_media_items" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدم الموافقة على عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_undelete_album" addon_id="XFMG" version_id="902010052" version_string="2.1.0 Release Candidate 2"><![CDATA[إستعادة الألبوم]]></phrase>
+  <phrase title="xfmg_undelete_albums" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء حذف الألبومات]]></phrase>
+  <phrase title="xfmg_undelete_comments" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[إلغاء حذف التعليقات]]></phrase>
+  <phrase title="xfmg_undelete_media_item" addon_id="XFMG" version_id="902010052" version_string="2.1.0 Release Candidate 2"><![CDATA[استعادة عنصر الميديا]]></phrase>
+  <phrase title="xfmg_undelete_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[إلغاء حذف عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_unread_comments" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تعليقات غير مقروءة]]></phrase>
+  <phrase title="xfmg_unviewed_media" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[الوسائط التي لم تتم مشاهدتها]]></phrase>
+  <phrase title="xfmg_unwatch_album" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[إلغاء متابعة الألبوم]]></phrase>
+  <phrase title="xfmg_unwatch_media_item" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[إلغاء متابعة عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_unwatermark_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[إلغاء ختم العناصر]]></phrase>
+  <phrase title="xfmg_unwatermark_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[إلغاء ختم عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_update_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تحديث العناصر]]></phrase>
+  <phrase title="xfmg_update_media_watermarks" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تحديث العلامات المائية للوسائط]]></phrase>
+  <phrase title="xfmg_upload_file" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[رفع ملف]]></phrase>
+  <phrase title="xfmg_upload_new_custom_thumbnail" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تحميل صورة مصغرة مخصصة جديدة:]]></phrase>
+  <phrase title="xfmg_uploaded_media" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[وسائط تم تحميلها]]></phrase>
+  <phrase title="xfmg_use_custom_thumbnail" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[استخدام صورة مصغرة مخصصة]]></phrase>
+  <phrase title="xfmg_use_default_thumbnail" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[استخدام الصورة المصغرة الافتراضية]]></phrase>
+  <phrase title="xfmg_user_album_index" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[فهرس ألبوم المستخدم]]></phrase>
+  <phrase title="xfmg_user_has_added_at_least_x_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[المستخدم أضاف X عناصر وسائط على الأقل]]></phrase>
+  <phrase title="xfmg_user_has_created_at_least_x_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[المستخدم قام بإنشاء X  ألبومات على الأقل]]></phrase>
+  <phrase title="xfmg_user_media_index" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[فهرس وسائط المستخدم]]></phrase>
+  <phrase title="xfmg_user_media_quotas" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[حصص وسائط المستخدم]]></phrase>
+  <phrase title="xfmg_using_x_of_your_y_quota" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تستخدم {quota} من إجمالي حصتك {total}.]]></phrase>
+  <phrase title="xfmg_videos" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[الفيديو]]></phrase>
+  <phrase title="xfmg_view_album_x" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[مشاهدة الألبوم {id}]]></phrase>
+  <phrase title="xfmg_view_count" addon_id="XFMG" version_id="902000070" version_string="2.0.0"><![CDATA[عدد المشاهدات]]></phrase>
+  <phrase title="xfmg_view_media_item_x" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[عرض عنصر الوسائط {id}]]></phrase>
+  <phrase title="xfmg_view_this_album" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[عرض هذا الألبوم]]></phrase>
+  <phrase title="xfmg_view_this_media_item" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[عرض عنصر الوسائط هذا]]></phrase>
+  <phrase title="xfmg_view_users_explain" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أدخل أعلاه أسماء الأعضاء الذين يسمح لهم بمشاهدة عناصر الوسائط. مالك الألبوم يسمح له بذلك تلقائيا.]]></phrase>
+  <phrase title="xfmg_viewing_album" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يشاهد الألبوم]]></phrase>
+  <phrase title="xfmg_viewing_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يشاهد الألبومات]]></phrase>
+  <phrase title="xfmg_viewing_media_category" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يشاهد قسم الوسائط]]></phrase>
+  <phrase title="xfmg_viewing_media_item" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يشاهد عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_viewing_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يشاهد عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_watch_album" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[متابعة الألبوم]]></phrase>
+  <phrase title="xfmg_watch_media_item" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[متابعة عنصر الوسائط]]></phrase>
+  <phrase title="xfmg_watched_album_comment_email_html" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p>علق {author} على ألبوم تتابعه في {board_title}.</p>]]></phrase>
+  <phrase title="xfmg_watched_album_email_html_footer" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p class="minorText">الرجاء عدم الرد على هذه الرسالة. يجب عليك زيارة المنتدى للرد.</p>
+
+<p class="minorText">تم إرسال هذه الرسالة إليك لأنك اخترت متابعة الألبوم "{album}" في {board} مع إشعار بالبريد الإلكتروني بعناصر الوسائط الجديدة أو التعليقات الجديدة.</p>
+
+<p class="minorText">إذا لم تعد ترغب في تلقي هذه الرسائل الإلكترونية، يمكنك <a href="{disable_this_link}"> تعطيل رسائل البريد الإلكتروني من هذا الألبوم</a> أو <a href="{disable_all_link}">تعطيل كافة رسائل البريد الإلكتروني</a>.</p>]]></phrase>
+  <phrase title="xfmg_watched_album_media_email_html" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p>أضاف {author} عنصر وسائط إلى ألبوم تتابعه في {board}.</p>]]></phrase>
+  <phrase title="xfmg_watched_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[الألبومات المتابعة]]></phrase>
+  <phrase title="xfmg_watched_category_email_html_footer" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p class="minorText">الرجاء عدم الرد على هذه الرسالة. يجب عليك زيارة المنتدى للرد.</p>
+
+<p class="minorText">تم إرسال هذه الرسالة إليك لأنك اخترت متابعة القسم "{category}" في {board} مع إشعار بالبريد الإلكتروني بعناصر الوسائط الجديدة.</p>
+
+<p class="minorText">إذا لم تعد ترغب في تلقي هذه الرسائل الإلكترونية، يمكنك <a href="{disable_this_link}"> تعطيل رسائل البريد الإلكتروني من هذا القسم</a> أو <a href="{disable_all_link}">تعطيل كافة رسائل البريد الإلكتروني</a>.</p>]]></phrase>
+  <phrase title="xfmg_watched_category_media_email_html" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p>أضاف {author} عنصر وسائط إلى قسم تتابعه في {board}.</p>]]></phrase>
+  <phrase title="xfmg_watched_media" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[الوسائط المتابعة]]></phrase>
+  <phrase title="xfmg_watched_media_comment_email_html" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p>علق {author} على عنصر الوسائط الذي تتابعه في {board_title}.</p>]]></phrase>
+  <phrase title="xfmg_watched_media_email_html_footer" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[<p class="minorText">الرجاء عدم الرد على هذه الرسالة. يجب عليك زيارة المنتدى للرد.</p>
+
+<p class="minorText">تم إرسال هذه الرسالة إليك لأنك اخترت متابعة عنصر الوسائط "{media}" في {board} مع إشعار بالبريد الإلكتروني بالتعليقات الجديدة.</p>
+
+<p class="minorText">إذا لم تعد ترغب في تلقي هذه الرسائل الإلكترونية، يمكنك <a href="{disable_this_link}"> تعطيل رسائل البريد الإلكتروني من عنصر الوسائط هذا</a> أو <a href="{disable_all_link}">تعطيل كافة رسائل البريد الإلكتروني</a>.</p>]]></phrase>
+  <phrase title="xfmg_watermark" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[العلامة المائية]]></phrase>
+  <phrase title="xfmg_watermark_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[عناصر العلامة المائية]]></phrase>
+  <phrase title="xfmg_watermark_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[ختم عناصر الوسائط]]></phrase>
+  <phrase title="xfmg_watermark_state" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[حالة ختم العلامة المائية]]></phrase>
+  <phrase title="xfmg_watermarked" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[مختوم بعلامة مائية]]></phrase>
+  <phrase title="xfmg_watermarking_is_not_enabled" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[لم يتم تمكين العلامة المائية.]]></phrase>
+  <phrase title="xfmg_wide" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[عريض]]></phrase>
+  <phrase title="xfmg_write_note" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[كتابة ملاحظة]]></phrase>
+  <phrase title="xfmg_x_added_media_item_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أضاف {name} عنصر الوسائط {title}.]]></phrase>
+  <phrase title="xfmg_x_added_media_item_y_to_album_z" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أضاف {username} عنصر الوسائط {title} إلى {album}.]]></phrase>
+  <phrase title="xfmg_x_added_media_item_y_to_category_z" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أضاف {username} عنصر وسائط {title} إلى {category}.]]></phrase>
+  <phrase title="xfmg_x_commented_on_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[علق {user} على الألبوم {album}.]]></phrase>
+  <phrase title="xfmg_x_commented_on_media_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[علق {user} على عنصر الوسائط {media}.]]></phrase>
+  <phrase title="xfmg_x_created_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أنشأ {username} الألبوم {title}.]]></phrase>
+  <phrase title="xfmg_x_created_album_y_in_category_z" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أنشأ {username} الألبوم {title} في {category}.]]></phrase>
+  <phrase title="xfmg_x_has_not_added_any_albums_which_match_your_filters" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[لم يضف {name} أي ألبومات تطابق تصفياتك.]]></phrase>
+  <phrase title="xfmg_x_has_not_added_any_albums_yet" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[لم يضف {name} أي ألبومات حتى الآن.]]></phrase>
+  <phrase title="xfmg_x_has_not_added_any_media_which_matches_your_filters" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[لم يضف {name} أي وسائط تتطابق مع تصفياتك.]]></phrase>
+  <phrase title="xfmg_x_has_not_added_any_media_yet" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[لم يضف {name} أي وسائط حتى الآن.]]></phrase>
+  <phrase title="xfmg_x_mentioned_you_in_comment_on_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أشار {user} إليك في تعليق على الألبوم {album}.]]></phrase>
+  <phrase title="xfmg_x_mentioned_you_in_comment_on_media_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أشار {user} إليك في تعليق على عنصر الوسائط {media}.]]></phrase>
+  <phrase title="xfmg_x_mentioned_you_on_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أشار {user} إليك في الألبوم {album}.]]></phrase>
+  <phrase title="xfmg_x_mentioned_you_on_media_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أشار إليك {user} في عنصر الوسائط {media}.]]></phrase>
+  <phrase title="xfmg_x_posted_comment_on_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[نشر {username} تعليقا على الألبوم {title}.]]></phrase>
+  <phrase title="xfmg_x_posted_comment_on_media_item_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[نشر {username} تعليقا على عنصر الوسائط {title}.]]></phrase>
+  <phrase title="xfmg_x_quoted_your_comment_on_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[اقتبس {user} تعليقك على الألبوم {album}.]]></phrase>
+  <phrase title="xfmg_x_quoted_your_comment_on_media_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[اقتبس {user} تعليقك على عنصر الوسائط {media}.]]></phrase>
+  <phrase title="xfmg_x_rated_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[قام {username} بتقييم الألبوم {title}.]]></phrase>
+  <phrase title="xfmg_x_rated_media_item_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[قام {username} بتقييم عنصر الوسائط {title}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_your_album_y" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع ألبومك {item} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_your_comment_on_album_y" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع تعليقك في الألبوم {album} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_your_comment_on_media_y" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع تعليقك على عنصر الميديا {media} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_your_media_y" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع الميديا الخاص بك {item} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_ys_album_z" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع ألبوم {author} {item} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_ys_comment_on_album_z" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع تعليق {author} في الألبوم {album} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_ys_comment_on_media_z" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع تعليق {author} على عنصر الميديا {media} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reacted_to_ys_media_z" addon_id="XFMG" version_id="902010012" version_string="2.1.0 Preview 2"><![CDATA[تفاعل {user} مع ميديا {author} {item} بـ {reaction}.]]></phrase>
+  <phrase title="xfmg_x_reviewed_album_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[قام {username} بتقديم مراجعة للألبوم {title}.]]></phrase>
+  <phrase title="xfmg_x_reviewed_media_item_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[قام {username} بمراجعة عنصر الوسائط {title}.]]></phrase>
+  <phrase title="xfmg_x_shared_their_album_y_add" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[قام {user} بمشاركة ألبومه {item} معك ويمكنك الآن إضافة وسائط إليه.]]></phrase>
+  <phrase title="xfmg_x_shared_their_album_y_view" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[قام {user} بمشاركة ألبومه {item} معك.]]></phrase>
+  <phrase title="xfmg_x_tagged_you_in_media_y" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أشار إليك {user} في عنصر الوسائط {item}.]]></phrase>
+  <phrase title="xfmg_x_tagged_you_in_media_y_approval" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أشار إليك {user} في الميديا {item}. يمكنك {approve} أو {reject} هذه الإشارة.]]></phrase>
+  <phrase title="xfmg_you_can_embed_media_from_various_bb_code_media_sites" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يمكنك تضمين الوسائط من مختلف مواقع الوسائط]]></phrase>
+  <phrase title="xfmg_you_can_not_add_media_to_container_categories" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[لا يمكنك إضافة وسائط إلى الأقسام الحاوية.]]></phrase>
+  <phrase title="xfmg_you_do_not_have_permission_to_add_media_to_this_album" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[ليس لديك تصريح لإضافة وسائط إلى هذا الألبوم.]]></phrase>
+  <phrase title="xfmg_you_do_not_have_permission_to_add_media_to_this_category" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[ليس لديك تصريح لإضافة وسائط إلى هذا القسم.]]></phrase>
+  <phrase title="xfmg_you_have_no_unread_comments" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[ليس لديك أي تعليقات غير مقروءة. يمكنك <a href="{link}" rel="nofollow">قراءة كافة التعليقات الأخيرة</a> بدلا من ذلك.]]></phrase>
+  <phrase title="xfmg_you_have_no_unviewed_media" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[ليس لديك أي وسائط غير مشاهدة. يمكنك <a href="{link}" rel="nofollow">مشاهدة كافة الوسائط الأخيرة</a> بدلا من ذلك.]]></phrase>
+  <phrase title="xfmg_you_must_specify_title_to_create_new_album_for_these_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[يجب تخصيص عنوان لإنشاء ألبوم جديد لعناصر الوسائط هذه قبل المتابعة.]]></phrase>
+  <phrase title="xfmg_you_not_watching_any_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أنت لا تتابع أي ألبومات.]]></phrase>
+  <phrase title="xfmg_you_not_watching_any_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[أنت لا تتابع أي وسائط.]]></phrase>
+  <phrase title="xfmg_you_only_permitted_to_tag_yourself_in_this_media_item" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[مسموح لك بالإشارة لنفسك في عنصر الوسائط هذا فقط.]]></phrase>
+  <phrase title="xfmg_you_required_to_leave_comment_when_rating" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[مطلوب منك ترك تعليق عند التقييم.]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_add_watermark_to_x_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد إضافة ختم علامة مائية إلى {total} من الوسائط؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_change_privacy_of_x_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد تغيير خصوصية {total} ألبومات ؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_delete_x_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد حذف {total} ألبومات؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_delete_x_comments" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد حذف {total} تعليقات ؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_delete_x_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد حذف {total} من عناصر الوسائط؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_mark_all_media_viewed" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد تعيين كل الوسائط كمشاهدة؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_mark_this_album_viewed" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد تعيين هذا الالبوم كمشاهد؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_mark_this_category_viewed" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد تعيين هذا القسم كمشاهد؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_move_x_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد نقل {total} ألبومات؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_move_x_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد نقل {total} من عناصر الوسائط؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_remove_watermark_from_x_media_items" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد إزالة ختم العلامة المائية من الوسائط الـ {total} ؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_stop_watching_all_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد إيقاف متابعة <b>كافة</b> الألبومات؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_stop_watching_all_media" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد التوقف عن متابعة <b>كافة</b> الوسائط؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_unwatch_this_album" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد التوقف عن متابعة هذا الألبوم؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_unwatch_this_media_item" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد التوقف عن متابعة عنصر الوسائط هذا؟]]></phrase>
+  <phrase title="xfmg_you_sure_you_want_to_update_your_email_notification_settings_for_all" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[هل تريد بالتأكيد تحديث إعدادات إشعارات البريد الإلكتروني لـ <b>كافة</b> الألبومات؟]]></phrase>
+  <phrase title="xfmg_you_will_be_shown_list_of_all_albums_that_you_can_add_media_to" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[سيتم عرض قائمة بكافة الألبومات التي يمكنك إضافة وسائط إليها.]]></phrase>
+  <phrase title="xfmg_your_album_x_was_deleted" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم حذف ألبومك {title}.]]></phrase>
+  <phrase title="xfmg_your_album_x_was_edited" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم تعديل ألبومك {title}.]]></phrase>
+  <phrase title="xfmg_your_album_x_was_moved" addon_id="XFMG" version_id="902000570" version_string="2.0.5"><![CDATA[تم نقل ألبومك {title}.]]></phrase>
+  <phrase title="xfmg_your_albums" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[ألبوماتك]]></phrase>
+  <phrase title="xfmg_your_comment_has_been_added" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تمت إضافة تعليقك.]]></phrase>
+  <phrase title="xfmg_your_comment_on_album_x_was_deleted" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم حذف تعليقك على الألبوم {title}.]]></phrase>
+  <phrase title="xfmg_your_comment_on_album_x_was_edited" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم تعديل تعليقك على الألبوم {title}.]]></phrase>
+  <phrase title="xfmg_your_comment_on_media_x_was_deleted" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم حذف تعليقك على عنصر الوسائط {title}.]]></phrase>
+  <phrase title="xfmg_your_comment_on_media_x_was_edited" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم تعديل تعليقك على عنصر الوسائط {title}.]]></phrase>
+  <phrase title="xfmg_your_media" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[الوسائط الخاصة بك]]></phrase>
+  <phrase title="xfmg_your_media_item_x_was_moved" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم نقل عنصر الوسائط الخاص بك {title}.]]></phrase>
+  <phrase title="xfmg_your_media_x_was_deleted" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم حذف عنصر الوسائط الخاص بك {title}.]]></phrase>
+  <phrase title="xfmg_your_media_x_was_edited" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم تعديل عنصر الوسائط الخاص بك {title}.]]></phrase>
+  <phrase title="xfmg_your_rating_has_been_added" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تم إضافة تقييمك.]]></phrase>
+  <phrase title="xfmg_your_statistics" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[إحصائياتك]]></phrase>
+  <phrase title="xfmg_your_usage" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[استخدامك]]></phrase>
+  <phrase title="xfmg_zoom_in" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تكبير]]></phrase>
+  <phrase title="xfmg_zoom_out" addon_id="XFMG" version_id="902000170" version_string="2.0.1"><![CDATA[تصغير]]></phrase>
+</language>
