@@ -1,7 +1,7 @@
 # Arabic Translation XenForo Media Gallery
 
-Based on XenForo Media Gallery 2.1.1.<br />
-Relased: 15/03/2019.
+Based on XenForo Media Gallery 2.1.3.<br />
+Relased: 25/07/2019.
 
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [XenForo community](https://xenforo.com/community/resources/arabic-language-for-xenforo-media-gallery.6162/)
 
