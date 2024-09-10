@@ -1,13 +1,12 @@
 # Arabic Translation XenForo Media Gallery 2.X
 
-Based on XenForo Media Gallery 2.2.0<br />
-Relased: 01/10/2020.
+Based on XenForo Media Gallery 2.3.3<br />
+Relased: 11/09/2024.
 
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [XenForo community](https://xenforo.com/community/resources/arabic-language-for-xenforo-media-gallery.6162/)
 
 **This translation is safe to use it in production.**
 
-Work progress: ![Progress](https://progress-bar.dev/100/?title=completed)
 
 ## Translation Features
 The translation is released in *opensource*, so its download is available freely :blush: .
